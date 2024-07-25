@@ -1,4 +1,15 @@
 body {
-    background-image: url(/personalsiteproject/Kilauea.jpg);
+    background-image: url(/Kilauea.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+h1 {
+    color: darksalmon;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
 }
