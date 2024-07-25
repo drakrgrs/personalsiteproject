@@ -1,42 +1,47 @@
 nav {
-    position: fixed;
-    top: 5px;
-    background-color: white;
-    font-size: x-large;
+  display: flex;
+  gap: 10px;
+  position: fixed;
+  top: 5px;
+  color: white;
+  font-size: x-large;
+  padding: 0px 10px 5px;
 }
 
 h1 {
-    margin-top: 40px;
-    background-color: white;
-    display: inline-block;
-    font-size: xx-large;
+  margin-top: 20px;
+  background-color: white;
+  display: inline-block;
+  font-size: xx-large;
 }
 
 body {
-    background-image: url(/milkyway.jpg);
-    background-size: cover;
-    text-align: left;
-    margin: 50px;
-    padding: 15px;
+  background-image: url(/milkyway.jpg);
+  background-size: cover;
+  text-align: left;
+  margin: 50px;
+  padding: 15px;
 }
 
 h2 {
-    background-color: white;
-   display: inline-block;
-   font-size: x-large;
+  background-color: white;
+  display: inline-block;
+  font-size: x-large;
 }
 
 img {
-    float: right;
-    margin: 15px;
-    max-width: 70%;
-    height: auto;
-    border: 1px solid white;
-    border-radius: 50px;
-  
-    
-
+  float: right;
+  margin: 15px;
+  max-width: 70%;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 50px;
 }
 
-
-
+.formcontainer {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  max-width: 200px;
+  height: auto;
+}
