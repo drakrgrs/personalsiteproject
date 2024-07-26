@@ -1,15 +1,12 @@
 body {
-    background-image: url(/Kilauea.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
+  background-color: black;
 }
 
 h1 {
-    color: darksalmon;
+  color: white;
 }
 
 .container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
