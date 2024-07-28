@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 5px;
+  color: white;
+  font-size: x-large;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 3rem;
+  width: 20rem;
+  border: 0.2em solid lightgray;
+}
+
+.child2 {
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  /* display: flex; */
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  color: white;
+}
+
+:link {
+  color: aqua !important;
+}

@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: black;
 }
@@ -9,4 +13,18 @@ h1 {
 .container {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 5px;
+  color: white;
+  font-size: x-large;
+}
+
+:link {
+  color: aqua !important;
 }

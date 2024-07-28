@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 img {
   float: right;
   margin: 25px;
@@ -7,9 +11,22 @@ img {
   border-radius: 50px;
 }
 
+nav {
+  display: flex;
+  gap: 20px;
+  position: fixed;
+  top: 5px;
+  color: white;
+  font-size: x-large;
+}
+
 body {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
   color: white;
+}
+
+:link {
+  color: aqua !important;
 }
