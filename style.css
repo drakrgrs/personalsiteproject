@@ -30,3 +30,8 @@ h3 {
 :link {
   color: aqua;
 }
+
+img {
+  width: 90%;
+  height: auto;
+}
